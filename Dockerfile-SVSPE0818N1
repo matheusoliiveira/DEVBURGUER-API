@@ -16,5 +16,5 @@ COPY . .
 # Expõe a porta do servidor
 EXPOSE 3000
 
-# Comando para iniciar a aplicaç
+# Comando para iniciar a aplicaçã
 CMD ["npm", "run", "dev"]
