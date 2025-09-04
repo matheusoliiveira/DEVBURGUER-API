@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: devpass
       POSTGRES_DB: devdb
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - devburguer_pgdata_v2:/var/lib/postgresql/data
 
   backend:
     build: .
@@ -25,4 +25,4 @@ services:
       - db
 
 volumes:
-  postgres_data:
+  devburguer_pgdata_v2:
